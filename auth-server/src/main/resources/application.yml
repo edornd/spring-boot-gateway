@@ -33,8 +33,8 @@ management:
 
 google:
   client:
-    clientId: 96376170212-s1c4gi5s2ngkjblumrtc3mfbq1old5hp.apps.googleusercontent.com
-    clientSecret: WPN-dU9WzRMnbiT9ubzWFu7m
+    clientId: 688476446948-jnncgantqo8sechhhojrkaag6avstmqc.apps.googleusercontent.com
+    clientSecret: cj2LQI-R9KY2xmRebAH_9zKU
     userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
     accessTokenUri: https://www.googleapis.com/oauth2/v4/token
     tokenName: authorization_code
