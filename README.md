@@ -11,4 +11,4 @@
 ```
 
 * Start authentication/authorization server application and client application as usual Spring Boot apps.
-* Navigate to [http://localhost:8080](localhost:8080) in order to start the SSO procedure.
+* Navigate to [localhost:8080](http://localhost:8080) in order to start the SSO procedure.
