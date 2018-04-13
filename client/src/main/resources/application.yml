@@ -1,0 +1,25 @@
+security:
+  oauth2:
+    client:
+      client-id: acme
+      client-secret: acmesecret
+      access-token-uri: http://localhost:9090/auth/oauth/token
+      user-authorization-uri: http://localhost:9090/auth/oauth/authorize
+      scope: read, write
+    resource:
+      user-info-uri: http://localhost:9090/auth/api/user
+
+#proxy for resource requests
+zuul:
+  routes:
+    resource:
+      path: /api/**
+      url: http://localhost:9090/auth/api
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.security.web.FilterChainProxy: DEBUG
+    org.springframework.web: DEBUG
+
+
