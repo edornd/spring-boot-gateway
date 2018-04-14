@@ -28,13 +28,13 @@ public class DataLoader implements CommandLineRunner {
         roleRepository.save(adminrole);
 
         User user = new User.Builder("user")
-                .name("John", "Travolta")
+                .name("John", "Doe")
                 .password(encoder.encode("john"))
                 .roles(userRole)
                 .build();
         User admin = new User.Builder("admin")
                 .name("Samuel", "Jackson")
-                .password(encoder.encode("motherfucka"))
+                .password(encoder.encode("samuel"))
                 .roles(userRole, adminrole)
                 .build();
 

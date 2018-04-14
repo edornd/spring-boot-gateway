@@ -17,9 +17,6 @@ logging:
     org.springframework.security.web.FilterChainProxy: DEBUG
 
 spring:
-  security:
-    user:
-      password: pass
   h2:
     console:
       enabled: true

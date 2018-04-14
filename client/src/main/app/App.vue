@@ -7,7 +7,6 @@
     <p>{{user}}</p>
     <p>Visit <a href="/me">http://localhost:8080/me</a> for the full Principal instance.</p>
     <p>Visit <a href="/api/user">http://localhost:8080/api/user</a> for the Principal in the Auth server (proxied)</p>
-
     <div>
       <h2>Things taken from the resource server</h2>
       <ul>

@@ -16,18 +16,18 @@
       <div class="form-group">
         <label for="username" class="bmd-label-floating">Username</label>
         <input type="text" class="form-control" id="username" name="username">
-        <span class="bmd-help">Inserisci il tuo nome utente</span>
+        <span class="bmd-help">Enter your username</span>
       </div>
       <div class="form-group">
         <label for="password" class="bmd-label-floating">Password</label>
         <input id="password" name="password" type="password" class="form-control">
       </div>
       <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
-      <button type="submit" class="btn btn-primary btn-raised">Entra</button>
+      <button type="submit" class="btn btn-primary btn-raised">Sign in</button>
     </form>
     <div>
-      <p>Oppure: </p>
-      <a href="/auth/login/google" class="btn btn-accent btn-raised">Entra con Google</a>
+      <p>Or:</p>
+      <a href="/auth/login/google" class="btn btn-accent btn-raised">Sign in using Google</a>
     </div>
   </div>
 </body>
